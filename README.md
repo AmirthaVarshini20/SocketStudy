@@ -53,6 +53,7 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 	import socket
+
 CLIENT:
 ```
 	# Create a socket object
@@ -74,6 +75,7 @@ CLIENT:
 	# Close the connection
 	client_socket.close()
 ```
+
 SERVER:
 ```
 	import socket
@@ -103,10 +105,18 @@ SERVER:
 	conn.close()
 	server_socket.close()
 ```
-##OUTPUT:
+OUTPUT:
+
+
 CLIENT:
+
+
 ![image](https://github.com/user-attachments/assets/82e555bc-1ddf-45dd-ba40-5dce3227898e)
+
+
 SERVER:
+
+
 ![image](https://github.com/user-attachments/assets/ea81fa98-7535-4c5c-9cae-9667a08ce8bc)
 
 
